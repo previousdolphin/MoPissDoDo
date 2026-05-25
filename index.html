@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mo Piss Do Do | A Collective</title>
+    <meta name="description" content="The home of Mo Piss Do Do. You can sit around and like the smell of the source, or you can enjoy the stuff that comes out.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- GSAP for Interactive Motion -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+    <!-- INITIALIZATION OVERLAY (Handles Audio Autoplay Policy & Sets Y2K Vibe) START -->
+    <div id="init-overlay" class="init-overlay">
+        <div class="init-content">
+            <p class="blink">WARNING: AUDIO EXPULSION IMMINENT</p>
+            <button id="init-btn" class="init-btn">[ INITIALIZE SYSTEM ]</button>
+            <p class="small-text">Awaiting user input to begin fluid transfer...</p>
+        </div>
+    </div>
+    <!-- INITIALIZATION OVERLAY END -->
+
+    <div id="main-wrapper" class="wrapper">
+        
+        <!-- AUDIO PLAYER EMBED (Hidden but active) START -->
+        <!-- The iframe src is injected via JS upon user interaction to bypass autoplay restrictions -->
+        <div id="audio-container" style="display: none;"></div>
+        <!-- AUDIO PLAYER EMBED END -->
+
+        <!-- TOP BAR STATUS START -->
+        <aside class="status-bar border-bottom">
+            <div class="status-marquee">
+                <div class="status-track">
+                    <span>SYSTEM STATUS: FLUIDS PROCESSING // VALVE: OPEN // OUTPUT: STABLE // </span>
+                    <span>SYSTEM STATUS: FLUIDS PROCESSING // VALVE: OPEN // OUTPUT: STABLE // </span>
+                </div>
+            </div>
+        </aside>
+        <!-- TOP BAR STATUS END -->
+
+        <!-- HEADER / LOGO SECTION START -->
+        <header class="site-header border-bottom">
+            <h1 class="visually-hidden">Mo Piss Do Do Collective</h1>
+            <div class="logo-container">
+                <!-- USER MEDIA LIBRARY (CDN) - HEADER LOGO -->
+                <img 
+                    src="https://pub-97f5bb5aae4143d9b9879547fc5d1be8.r2.dev/users/df4fa431-2015-4b34-a12e-cd77c6b6e4c0/fa2e348c-ad9a-4561-a77a-e6249321521a.png" 
+                    alt="Mo Piss Do Do Header Logo" 
+                    class="main-logo"
+                >
+            </div>
+        </header>
+        <!-- HEADER / LOGO SECTION END -->
+
+        <main>
+            <!-- MANIFESTO SECTION START -->
+            <section class="manifesto border-bottom">
+                <div class="manifesto-grid">
+                    <div class="manifesto-title">
+                        <h2 class="huge-text gs-reveal">THE<br>PROCESS</h2>
+                    </div>
+                    <div class="manifesto-copy">
+                        <p class="gs-reveal">We operate as the primary conduit between intake and expulsion. A collective dedicated to the filtration of the cultural basin.</p>
+                        <p class="gs-reveal">We ingest the overflow. We process the liquids. We compress the raw matter into solid, tangible artifacts. The collective functions as a perfectly calibrated tract for modern discourse.</p>
+                        <p class="gs-reveal">No waste. Only purified output.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- MANIFESTO SECTION END -->
+
+            <!-- QUOTE SECTION START -->
+            <section class="quote-section border-bottom">
+                <blockquote class="core-quote">
+                    <span class="quote-marks">"</span>
+                    <span class="quote-text">You can sit around and like the smell of the source, or you can enjoy the stuff that comes out.</span>
+                    <span class="quote-marks">"</span>
+                </blockquote>
+                <cite class="quote-author gs-reveal">— MOPISSDODO</cite>
+            </section>
+            <!-- QUOTE SECTION END -->
+
+            <!-- ARCHIVE / UPLOAD SECTION START -->
+            <section class="archive-section">
+                <header class="archive-header border-bottom">
+                    <h2>THE OUTPUT ARCHIVE</h2>
+                    <p>[ SYSTEM READY FOR FUTURE DEPOSITS ]</p>
+                </header>
+                <div class="archive-grid">
+                    <!-- USER INTENDS TO UPLOAD OWN ASSETS: Placeholders provided below -->
+                    
+                    <!-- PLACEHOLDER ITEM 1 -->
+                    <article class="archive-item">
+                        <div class="placeholder-media border-all">
+                            <!-- Swap this comment out for an <img> or <video> when ready -->
+                            <span class="placeholder-text">AWAITING<br>MATTER</span>
+                        </div>
+                        <div class="item-meta">
+                            <span>FILE_001.DAT</span>
+                            <span>VOL. 1</span>
+                        </div>
+                    </article>
+
+                    <!-- PLACEHOLDER ITEM 2 -->
+                    <article class="archive-item">
+                        <div class="placeholder-media border-all">
+                            <!-- Swap this comment out for an <img> or <video> when ready -->
+                            <span class="placeholder-text">AWAITING<br>MATTER</span>
+                        </div>
+                        <div class="item-meta">
+                            <span>FILE_002.DAT</span>
+                            <span>VOL. 1</span>
+                        </div>
+                    </article>
+
+                    <!-- PLACEHOLDER ITEM 3 -->
+                    <article class="archive-item">
+                        <div class="placeholder-media border-all">
+                            <!-- Swap this comment out for an <img> or <video> when ready -->
+                            <span class="placeholder-text">AWAITING<br>MATTER</span>
+                        </div>
+                        <div class="item-meta">
+                            <span>FILE_003.DAT</span>
+                            <span>VOL. 1</span>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+            <!-- ARCHIVE / UPLOAD SECTION END -->
+        </main>
+
+        <!-- FOOTER START -->
+        <footer class="site-footer border-top">
+            <div class="footer-content">
+                <p>© 1999–PRESENT // MO PISS DO DO COLLECTIVE</p>
+                <p>ALL MATTER RETAINED.</p>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
